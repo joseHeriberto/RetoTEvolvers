@@ -1,0 +1,4 @@
+rootProject.name = 'LogicaBaseDatos'
+include 'conectorBD:conexion'
+findProject(':conectorBD:conexion')?.name = 'conexion'
+

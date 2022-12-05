@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Yo como usuario deseo actualizar Booking" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-05T02:27:01" hostname="LAPTOP-STJ4R6BF" time="4.105">
+  <properties/>
+  <testcase name="realizar la operacion de crear Booking" classname="Yo como usuario deseo actualizar Booking" time="4.105"/>
+  <system-out><![CDATA[{
+    "firstname": "Ruperto",
+    "lastname": "Renacuajo",
+    "totalprice": 222,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2019-01-01",
+        "checkout": "2020-01-01"
+    },
+    "additionalneeds": "dinner"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
