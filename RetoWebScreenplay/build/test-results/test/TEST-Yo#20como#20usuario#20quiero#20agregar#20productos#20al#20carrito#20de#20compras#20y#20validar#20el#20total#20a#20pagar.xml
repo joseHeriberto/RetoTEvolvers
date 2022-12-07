@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Yo como usuario quiero agregar productos al carrito de compras y validar el total a pagar" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-07T02:21:53" hostname="LAPTOP-STJ4R6BF" time="60.69">
+  <properties/>
+  <testcase name="Seleccionar y agregar los productos al carrito de compras" classname="Yo como usuario quiero agregar productos al carrito de compras y validar el total a pagar" time="60.69"/>
+  <system-out><![CDATA[subtotal 179.99
+subtotal 29.99
+subtotal 9.99
+subtotal 1261.99
+subtotal 299.99
+subtotal 1279.00
+subtotal 1009.00
+subtotal 129.00
+subtotal 269.99
+precio calculado 4468,94
+precio esperado 4468.94
+]]></system-out>
+  <system-err><![CDATA[dic. 06, 2022 9:21:53 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 45846
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dic. 06, 2022 9:21:55 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
