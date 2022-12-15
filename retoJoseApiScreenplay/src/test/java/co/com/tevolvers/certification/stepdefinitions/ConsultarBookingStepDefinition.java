@@ -16,10 +16,6 @@ public class ConsultarBookingStepDefinition {
         OnStage.theActorInTheSpotlight().attemptsTo(ConsultarBooking.consulta(datos));
 
     }
-    @Entonces("deberia ver la respuesta exitosa de consultar Booking")
-    public void deberiaVerLaRespuestaExitosaDeConsultarBooking() {
-
-    }
 
     @Entonces("deberia ver la respuesta exitosa de consultar Booking con codido de respuesta {int}")
     public void deberiaVerLaRespuestaExitosaDeConsultarBookingConCodidoDeRespuesta(int codigo) {

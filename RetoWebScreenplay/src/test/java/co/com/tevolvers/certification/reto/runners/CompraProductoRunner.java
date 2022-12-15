@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src\\test\\resources\\features\\compra_producto.feature",
         glue = "co\\com\\tevolvers\\certification\\reto\\stepdefinitions",
+        
         snippets = SnippetType.CAMELCASE
 )
 public class CompraProductoRunner {

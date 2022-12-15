@@ -26,9 +26,11 @@ public class ConstruirCuerpo implements Interaction {
         datosPrueba.setLastname(informacion.get(0).get("lastname"));
         datosPrueba.setTotalprice(Integer.parseInt(informacion.get(0).get("totalprice")));
         datosPrueba.setDepositpaid(Boolean.parseBoolean(informacion.get(0).get("depositpaid")));
+
         bookingdates.setCheckin(informacion.get(0).get("checkin"));
         bookingdates.setCheckout(informacion.get(0).get("checkout"));
         datosPrueba.setBookingdates(bookingdates);
+
         datosPrueba.setAdditionalneeds(informacion.get(0).get("additionalneeds"));
 
         String Json = gson.toJson(datosPrueba);

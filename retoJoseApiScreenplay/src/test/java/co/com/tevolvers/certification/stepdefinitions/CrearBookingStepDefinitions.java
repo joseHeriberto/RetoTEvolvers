@@ -33,10 +33,6 @@ public class CrearBookingStepDefinitions {
         OnStage.theActorInTheSpotlight().wasAbleTo(CrearBooking.deLaPeticion());
 
     }
-    @Entonces("deberia ver la respuesta exitosa de crear Booking")
-    public void deberiaVerLaRespuestaExitosaDeCrearBooking() {
-
-    }
 
     @Entonces("deberia ver la respuesta exitosa de crear Booking con codigo {int}")
     public void deberiaVerLaRespuestaExitosaDeCrearBookingConCodigo(int codigo) {
